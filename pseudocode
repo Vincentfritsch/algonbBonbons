@@ -1,0 +1,7 @@
+Début nbBonbons (argent, prixBonbon) 
+	nbBonbons=0
+	Tant que argent>=prixBonbon*nbBonbons 
+		nbBonbons←nbonbons+1
+	Fin Tant que
+	Retourner nbBonbons
+Fin nbBonbons 
