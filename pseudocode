@@ -1,5 +1,8 @@
 //compter le nombre de bonbons qu'on peut acheter avec son argent
 Début nbBonbons (argent, prixBonbon) 
+	si argent<0 OU prix <0
+		retourner erreur
+	fin Si
 	nbBonbons=0
 	Tant que argent>=prixBonbon*nbBonbons 
 		nbBonbons←nbonbons+1
