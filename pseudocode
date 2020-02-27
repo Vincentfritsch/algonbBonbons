@@ -7,7 +7,7 @@ Début nbBonbons (argent, prixBonbon)
 	Si argent<prix
 		rerourner 0
 	fin Si
-	Tant que argent>=prixBonbon*nbBonbons 
+	Tant que argent>=prixBonbon*(1+nbBonbons) 
 		nbBonbons←nbonbons+1
 	Fin Tant que
 	Retourner nbBonbons
